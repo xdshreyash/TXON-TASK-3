@@ -1,0 +1,120 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #7cececd3;
+  }
+  .background-clip{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    z-index: -1;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px;
+    margin-right:auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    
+ 
+    padding: 20px;
+    background-color: #38b1ad;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #282525;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  button[type="button"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #61bd4f;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #5aac44;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  li label {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 10px;
+    color: #5aac44;
+  }
+  
+  li button.delete-btn {
+    background-color: #eb5a46;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  li button.delete-btn:hover {
+    background-color: #c74330;
+  }
+  
+  #complete-all-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #61bd4f;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #complete-all-btn:hover {
+    background-color: #5aac44;
+  }
